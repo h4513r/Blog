@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<body onselectstart="return false" oncontextmenu="return false">
+<script language='javascript'>
+var myVar=setInterval(function(){Clock()},1000);
+function Clock() {
+a=new Date();
+w=Array("Chủ Nhật","Thứ hai","Thứ ba","Thứ tư","Thứ năm","Thứ sáu","Thứ bảy");
+var a=w[a.getDay()],
+w=new Date,
+d=w.getDate();
+m=w.getMonth()+1;
+y=w.getFullYear();
+h=w.getHours();
+mi=w.getMinutes();
+se=w.getSeconds();
+if(10>d){d="0"+d}
+if(10>m){m="0"+m}
+if(10>h){h="0"+h}
+if(10>mi){mi="0"+mi}
+if(10>se){se="0"+se}
+document.getElementById("clockDiv").innerHTML="Hôm nay: "+a+", "+d+" / "+m+" / "+y+" - "+h+":"+mi+":"+se+"";
+}
+</script>
+
+<script type="text/javascript" src="https://ans.nukeviet.store/jquery.min.js"></script>
+<script>$(function(){if(window._userdata&&_userdata.page_desktop)window.location=_userdata.page_desktop});jQuery(document).ready(function($){var $ctsearch=$('#ct-search'),$ctsearchinput=$ctsearch.find('input.ct-search-input'),$body=$('html,body'),openSearch=function(){$ctsearch.data('open',true).addClass('ct-search-open');$ctsearchinput.focus();return false},closeSearch=function(){$ctsearch.data('open',false).removeClass('ct-search-open')};$ctsearchinput.on('click',function(e){e.stopPropagation();$ctsearch.data('open',true)});$ctsearch.on('click',function(e){e.stopPropagation();if(!$ctsearch.data('open')){openSearch();$body.off('click').on('click',function(e){closeSearch()})}else{if($ctsearchinput.val()===''){closeSearch();return false}}})});$(function(){$("img").on("error",function(){$(this).attr({alt:this.src,src:""})})});shortcut={all_shortcuts:{},add:function(a,b,c){var d={type:"keydown",propagate:!1,disable_in_input:!1,target:document,keycode:!1};if(c)for(var e in d)"undefined"==typeof c[e]&&(c[e]=d[e]);else c=d;d=c.target,"string"==typeof c.target&&(d=document.getElementById(c.target)),a=a.toLowerCase(),e=function(d){d=d||window.event;if(c.disable_in_input){var e;d.target?e=d.target:d.srcElement&&(e=d.srcElement),3==e.nodeType&&(e=e.parentNode);if("INPUT"==e.tagName||"TEXTAREA"==e.tagName)return}d.keyCode?code=d.keyCode:d.which&&(code=d.which),e=String.fromCharCode(code).toLowerCase(),188==code&&(e=","),190==code&&(e=".");var f=a.split("+"),g=0,h={"`":"~",1:"!",2:"@",3:"#",4:"$",5:"%",6:"^",7:"&",8:"*",9:"(",0:")","-":"_","=":"+",";":":","'":'"',",":"<",".":">","/":"?","":"|"},i={esc:27,escape:27,tab:9,space:32,"return":13,enter:13,backspace:8,scrolllock:145,scroll_lock:145,scroll:145,capslock:20,caps_lock:20,caps:20,numlock:144,num_lock:144,num:144,pause:19,"break":19,insert:45,home:36,"delete":46,end:35,pageup:33,page_up:33,pu:33,pagedown:34,page_down:34,pd:34,left:37,up:38,right:39,down:40,f1:112,f2:113,f3:114,f4:115,f5:116,f6:117,f7:118,f8:119,f9:120,f10:121,f11:122,f12:123},j=!1,l=!1,m=!1,n=!1,o=!1,p=!1,q=!1,r=!1;d.ctrlKey&&(n=!0),d.shiftKey&&(l=!0),d.altKey&&(p=!0),d.metaKey&&(r=!0);for(var s=0;k=f,s<f.length;s++)"ctrl"==k||"control"==k?(g++,m=!0):"shift"==k?(g++,j=!0):"alt"==k?(g++,o=!0):"meta"==k?(g++,q=!0):1<k.length?i[k]==code&&g++:c.keycode?c.keycode==code&&g++:e==k?g++:h[e]&&d.shiftKey&&(e=h[e],e==k&&g++);if(g==f.length&&n==m&&l==j&&p==o&&r==q&&(b(d),!c.propagate))return d.cancelBubble=!0,d.returnValue=!1,d.stopPropagation&&(d.stopPropagation(),d.preventDefault()),!1},this.all_shortcuts[a]={callback:e,target:d,event:c.type},d.addEventListener?d.addEventListener(c.type,e,!1):d.attachEvent?d.attachEvent("on"+c.type,e):d["on"+c.type]=e},remove:function(a){var a=a.toLowerCase(),b=this.all_shortcuts[a];delete this.all_shortcuts[a];if(b){var a=b.event,c=b.target,b=b.callback;c.detachEvent?c.detachEvent("on"+a,b):c.removeEventListener?c.removeEventListener(a,b,!1):c["on"+a]=!1}}},shortcut.add("Ctrl+U",function(){}),shortcut.add("Ctrl+S",function(){}),shortcut.add("Ctrl+Shift+I",function(){}),shortcut.add("Ctrl+Shift+J",function(){}),shortcut.add("Ctrl+Shift+K",function(){}),shortcut.add("Ctrl+K",function(){}),shortcut.add("F12",function(){}),shortcut.add("Ctrl+U",function(){}),shortcut.add("Ctrl+Shift+C",function(){}),shortcut.add("Ctrl+S",function(){});</script>
+<script language="javascript">
+        title_tmp1 = document.title
+        if (title_tmp1.indexOf(">>") != -1) {
+            title_tmp2 = title_tmp1.split(">>");
+            title_last = "*~*" + title_tmp2[1];
+            title_last = title_last + "*~*" + title_tmp2[2];
+        } else {
+
+            if (title_tmp1.indexOf("*~*") != -1) {
+                title_tmp2 = title_tmp1.split("*~*");
+                title_last = "*~*" + title_tmp2[1];
+                if (title_last == "*~*") {
+                    title_last = "*~*"
+                };
+                if (title_last == "*~*") {
+                    title_last = "*~*"
+                };
+            } else {
+                title_last = "|__Anh__|"
+            }
+        }
+
+
+        title_new = "" + title_last + ""
+        step = 0
+
+        function flash_title() {
+            step++
+            if (step == 8) {
+                step = 1
+            }
+            if (step == 1) {
+                document.title = '|----★' + title_new + '★----|'
+            }
+            if (step == 2) {
+                document.title = '|---★-' + title_new + '-★---|'
+            }
+            if (step == 3) {
+                document.title = '|--★--' + title_new + '--★--|'
+            }
+            if (step == 4) {
+                document.title = '|-★---' + title_new + '---★-|'
+            }
+            if (step == 5) {
+                document.title = '|★----' + title_new + '----★|'
+            }
+            if (step == 6) {
+                document.title = '|-★---' + title_new + '---★-|'
+            }
+            if (step == 7) {
+                document.title = '|--★--' + title_new + '--★--|'
+            }
+            if (step == 8) {
+                document.title = '|---★-' + title_new + '-★---|'
+            }
+            if (step == 9) {
+                document.title = '|----★' + title_new + '★----|'
+            }
+            setTimeout("flash_title()", 180);
+        }
+        flash_title()
+    </script>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="Nguyen Ngoc Anh">
+    <meta name="description" content="Nguyen Ngoc Anh&#39;s personal website">
+    <meta name="keywords" content="blog,developer,personal">
+
+    <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Blog Nguyen Ngoc Anh "/>
+<meta name="twitter:description" content="Nguyen Ngoc Anh&#39;s personal website"/>
+
+    <meta property="og:title" content="Blog Nguyen Ngoc Anh " />
+<meta property="og:description" content="Nguyen Ngoc Anh&#39;s personal website" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://h4513r.github.io/Blogger/" />
+
+
+<iframe width="0" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/856680761&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe> 
+    
+      <base href="https://h4513r.github.io/Blogger/">
+    
+    <title>Blog Nguyen Ngoc Anh </title>
+
+    
+      <link rel="canonical" href="https://h4513r.github.io/Blogger/">
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather:300,700%7CSource+Code+Pro:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+
+    
+      
+      
+      <link rel="stylesheet" href="https://h4513r.github.io/Blogger/css/coder.min.a4f332213a21ce8eb521670c614470c58923aaaf385e2a73982c31dd7642decb.css" integrity="sha256-pPMyITohzo61IWcMYURwxYkjqq84XipzmCwx3XZC3ss=" crossorigin="anonymous" media="screen" />
+    
+
+    
+
+    
+      
+        
+        
+        <link rel="stylesheet" href="https://h4513r.github.io/Blogger/css/coder-dark.min.83a2010dac9f59f943b3004cd6c4f230507ad036da635d3621401d42ec4e2835.css" integrity="sha256-g6IBDayfWflDswBM1sTyMFB60DbaY102IUAdQuxOKDU=" crossorigin="anonymous" media="screen" />
+      
+    
+
+    
+
+    
+
+    
+
+    <link rel="icon" type="image/png" href="https://h4513r.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://h4513r.github.io/images/favicon-16x16.png" sizes="16x16">
+
+    <link rel="alternate" type="application/rss+xml" href="https://h4513r.github.io/Blogger/index.xml" title="Blog Nguyen Ngoc Anh " />
+    <meta name="generator" content="Hugo 0.68.3" />
+  </head>
+
+  
+  
+    
+  
+  <body class="colorscheme-auto">
+    <main class="wrapper">
+      <nav class="navigation">
+  <section class="container">
+    <a class="navigation-title" href="https://h4513r.github.io/Blogger/">
+      Blog Nguyen Ngoc Anh 
+    </a>
+    
+    <input type="checkbox" id="menu-toggle" />
+    <label class="menu-button float-right" for="menu-toggle"><i class="fas fa-bars"></i></label>
+    <ul class="navigation-list">
+      
+        
+          <li class="navigation-item">
+            <a class="navigation-link" href="https://h4513r.github.io/Blogger/about/">Chi Tiết Về Bản Thân</a>
+          </li>
+        
+      
+      
+    </ul>
+    
+  </section>
+</nav>
+
+
+      <div class="content">
+        
+  <section class="container centered">
+  <div class="about">
+    
+      
+        <div class="avatar"><img src="https://h4513r.github.io/Blogger/images/avatar.jpg" alt="avatar"></div>
+      
+    
+    
+    <h1>Nguyen Ngoc Anh</h1>
+    <h2>Nghii Heeeeeee Roaiii ! ! !</h2>
+    <font face="Comic sans MS" size="+1"> <div id="clockDiv"></div></font><br />
+    
+    <ul>
+      
+        
+          <li>
+            <a href="https://github.com/h4513r/" aria-label="Github"   >
+              <i class="fab fa-github" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="https://facebook.com/h4513r/" aria-label="Facebook"   >
+              <i class="fab fa-facebook" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+        
+          <li>
+            <a href="https://instagram.com/h4513r/" aria-label="Instagram"   >
+              <i class="fab fa-instagram" aria-hidden="true"></i>
+            </a>
+          </li>
+        
+      
+    </ul>
+    
+  </div>
+</section>
+
+
+      </div>
+
+      
+  <footer class="footer">
+    <section class="container">
+      
+        <p>Thanh xuân mà để lãng phí thì bạn đã thực sự là loser rồi! </p>
+      
+      
+        ©
+        
+        2020
+         Nguyen Ngoc Anh 
+      
+      
+         · 
+         <a href="https://github.com/h4513r">Coder</a>.
+      
+      
+    </section>
+  </footer>
+
+    </main>
+
+    
+
+    
+
+  </body>
+
+</html>
