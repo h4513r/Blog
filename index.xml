@@ -2,29 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog Nguyen Ngoc Anh </title>
-    <link>https://h4513r.github.io/Blogger/</link>
+    <link>https://h4513r.github.io/Blog/</link>
     <description>Recent content on Blog Nguyen Ngoc Anh </description>
-    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="https://h4513r.github.io/Blogger/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://h4513r.github.io/Blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <!-- <link>https://h4513r.github.io/Blogger/posts/nothing/</link>
+      <!-- <link>https://h4513r.github.io/Blog/posts/nothing/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://h4513r.github.io/Blogger/posts/nothing/</guid>
+      <guid>https://h4513r.github.io/Blog/posts/nothing/</guid>
       <description> Bài này hiện chưa có gì!  </description>
     </item>
     
     <item>
       <title>About Nguyen Ngoc Anh</title>
-      <link>https://h4513r.github.io/Blogger/about/</link>
+      <link>https://h4513r.github.io/Blog/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate> -->
       
-      <guid>https://h4513r.github.io/Blogger/about/</guid>
+      <guid>https://h4513r.github.io/Blog/about/</guid>
       <description>Nguyen Ngoc Anh
   *Là 1 học sinh ngu dốt toàn diện nên tạo 1 cái blog cho bằng bạn bằng bè chứ bạn bè toàn &amp;ldquo;Nắc-cơ&amp;rdquo;, &amp;ldquo;HOT social network&amp;rdquo;, bla bla&amp;hellip;, không thì mất mặt lắm.
   Thực ra tui làm cái này để tìm hiểu thêm, nạp cái kiến không ngủ vào cái đầu cho bớt ngủ tý hi hi.., để sau này còn sánh zai với cường quốc lăm châu 4 bể.</description>
@@ -32,39 +31,39 @@
     
     <item>
       <title>Contact</title>
-      <link>https://h4513r.github.io/Blogger/contact/</link>
+      <link>https://h4513r.github.io/Blog/contact/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://h4513r.github.io/Blogger/contact/</guid>
+      <guid>https://h4513r.github.io/Blog/contact/</guid>
       <description>Contact :
  Github Facebook Instagram  </description>
     </item>
     
     <!-- <item>
       <title>First snippet</title>
-      <link>https://h4513r.github.io/Blogger/snippets/first/</link>
+      <link>https://h4513r.github.io/Blog/snippets/first/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://h4513r.github.io/Blogger/snippets/first/</guid>
+      <guid>https://h4513r.github.io/Blog/snippets/first/</guid>
       <description>This content is in snippets/first/index.md
 pwd </description>
     </item> -->
     
     <!-- <item>
       <title>Projects</title>
-      <link>https://h4513r.github.io/Blogger/projects/</link>
+      <link>https://h4513r.github.io/Blog/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://h4513r.github.io/Blogger/projects/</guid>
+      <guid>https://h4513r.github.io/Blog/projects/</guid>
       <description>*Nothing to see here&amp;hellip; Move along!</description>
     </item>
     
     <item>
       <title>Second snippet</title>
-      <link>https://h4513r.github.io/Blogger/snippets/second/</link>
+      <link>https://h4513r.github.io/Blog/snippets/second/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://h4513r.github.io/Blogger/snippets/second/</guid>
+      <guid>https://h4513r.github.io/Blog/snippets/second/</guid>
       <description>This content is in snippets/second/index.md
 ls -la </description>
     </item> -->
